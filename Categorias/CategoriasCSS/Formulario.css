@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: cursive;
+  color: azure;
+  font-size: 20px;
+}
+body {
+  background: linear-gradient(
+    250.59deg,
+    #322c38 0%,
+    #514e61 28.53%,
+    #1c2137 75.52%
+  );
+  font-size: 16px;
+}
+
+.EncabezadoForm {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.formu h1 {
+  position: absolute;
+  font-size: 50px;
+
+  margin: 0;
+}
+p {
+  text-align: center;
+}
+.ContenedorForm {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid azure;
+  border-radius: 20px;
+
+}
+
+.ImagenForm {
+margin-left: 50px;
+}
+
+.button {
+  color: #1c2137;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/*Adaotar el formulario a pantallas mas pequeñas */
+@media (max-width: 768px) {
+  .ContenedorForm {
+    width: 90%;
+    max-width: 100%;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  margin-top: 0px;
+}
+
+a {
+  margin-left: 50px;
+}
+a:hover {
+  color: violet;
+}
